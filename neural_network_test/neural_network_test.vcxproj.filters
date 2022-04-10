@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="neural_network">
+      <UniqueIdentifier>{8990040a-535a-4fd3-bb42-0a6f8cd5b12b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="neural_network\public">
+      <UniqueIdentifier>{8dc1bcde-1bfe-4e7d-8f4b-ee8e65d0f338}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="neural_network\private">
+      <UniqueIdentifier>{d8075269-753f-4ce7-8941-54c8535d6817}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="layer.cpp">
+      <Filter>neural_network\private</Filter>
+    </ClCompile>
+    <ClCompile Include="network.cpp">
+      <Filter>neural_network\private</Filter>
+    </ClCompile>
+    <ClCompile Include="neuron.cpp">
+      <Filter>neural_network\private</Filter>
+    </ClCompile>
+    <ClCompile Include="connection.cpp">
+      <Filter>neural_network\private</Filter>
+    </ClCompile>
+    <ClCompile Include="layer_spec.cpp">
+      <Filter>neural_network\private</Filter>
+    </ClCompile>
+    <ClCompile Include="activation.cpp">
+      <Filter>neural_network\private</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="activation.h">
+      <Filter>neural_network\public</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="network.h">
+      <Filter>neural_network\public</Filter>
+    </ClInclude>
+    <ClInclude Include="neuron.h">
+      <Filter>neural_network\private</Filter>
+    </ClInclude>
+    <ClInclude Include="layer.h">
+      <Filter>neural_network\private</Filter>
+    </ClInclude>
+    <ClInclude Include="connection.h">
+      <Filter>neural_network\private</Filter>
+    </ClInclude>
+    <ClInclude Include="layer_spec.h">
+      <Filter>neural_network\public</Filter>
+    </ClInclude>
+    <ClInclude Include="network_spec.h">
+      <Filter>neural_network\public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

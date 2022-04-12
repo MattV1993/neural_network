@@ -15,6 +15,7 @@ namespace neural_network
 
 		network(const network_spec& spec);
 
+		// Runs forward and back propergation to train the network
 		void train(const std::vector<double>& input, const std::vector<double>& targets);
 		std::vector<double> results() const;
 

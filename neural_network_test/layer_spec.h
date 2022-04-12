@@ -15,6 +15,7 @@ namespace neural_network
 
 	};
 
+	// Parameters for defining the final layer in the network
 	struct output_layer_spec
 	{
 		output_layer_spec(
@@ -28,6 +29,7 @@ namespace neural_network
 		size_t neuron_count;
 	};
 
+	// Parameters for defining a layer in the network
 	struct layer_spec
 	{
 		layer_spec(

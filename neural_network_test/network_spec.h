@@ -17,6 +17,7 @@ namespace neural_network
 
 	using network_log_delegate = std::function<void(const network_log&)>;
 
+	// Parameters for defining a network
 	struct network_spec
 	{
 		std::vector<layer_spec> layer_specs;

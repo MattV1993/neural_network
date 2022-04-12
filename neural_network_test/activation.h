@@ -6,6 +6,8 @@ namespace neural_network
 {
 	enum class activation_type;
 
+	// Base class for different activation types
+	// Uses stratergy pattern
 	class activation
 	{
 	public:

@@ -7,11 +7,11 @@
 // TODO: 
 // Check error is correct - only works if more than 1 output neuron
 // Add bias corectly. Not in hidden layer? Should it be a seperate neuron? Added to layer not individual neurons?
-// Should neurons have an input value? Cmment from video.
+// Should neurons have an input value?
 // Regularisation
 // Dropout
 // Early stopping
-// Different optimizer -gradient decent, adam
+// Different optimizer -gradient descent, adam
 // Different loss
 // Ways to sort data
 

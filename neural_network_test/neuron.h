@@ -21,6 +21,7 @@ namespace neural_network
 		neuron& operator=(const neuron& other) = delete;
 		neuron& operator=(neuron&& other) = default;
 
+		// Calculates sum of previously layers and passes result through activation function
 		void feed_forward();
 
 		double value() const;
@@ -36,6 +37,7 @@ namespace neural_network
 		void set_forward_connection(const connection& c);
 		void set_backward_connection(const connection& c);
 
+		// Set new weightss based on new neuron values
 		void update_weights(double alpha, double eta);
 
 	private:
